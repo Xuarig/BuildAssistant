@@ -1,0 +1,113 @@
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+# Build Assistant Language File                                                                            Version : 1.0 (Default : en) #
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
+# Please read this before change language file :
+# Available languages are English (en) and French (fr)
+# For the color code you must use & + color character (Example : &a => Green or &6 => Gold)
+# Colors code : http://imgur.com/gallery/XjGW1
+# If you have another language file with other language, you can give it to me to add it to the plugin !
+# Translations by Xuarig (I'm a french dev.)
+
+# If you need help about translation : Contact me on spigot by MP (https://www.spigotmc.org/resources/buildassistant.45252/)
+# And thank you for the plugin download (:
+# If you have suggestions, say it to me !
+
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+# English (GB) - Default Language                                                                                                 #
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
+# =-=-=-=-=-=-=-=-=-=-> Words
+usage: "Usage"
+argument: "argument"
+gamemode: "gamemode"
+player: "player"
+adventure: "Adventure"
+creative: "Creative"
+survival: "Survival"
+spectator: "Spectator"
+message: "message"
+name: "name"
+speed: "speed"
+fly: "fly"
+walk: "walk"
+private_message: "PM"
+
+# =-=-=-=-=-=-=-=-=-=-> Errors
+no_perm: "&cYou don't have the permission to do that! &7(&6%perm%&7)" #Placeholder : %perm%
+warp_not_found: "&7The warp &6%name% &7doesn't exist" #Placeholder : %name%
+item_not_found: "&7The item &6%name% &7doesn't exist" #Placeholder : %name%
+player_not_found: "&cThis player doesn't exist!"
+player_not_longer_online: "&cThis player is no longer connected!"
+one_of_two_player_not_found: "&cOne of this players doesn't exist!"
+impossible_back: "&cYou can't back to your previous location!"
+plugin_not_found: "&cThis plugin doesn't exist or the name is incorrect"
+plugin_not_load: "&cThis plugin is not load"
+reply_no_player: "&cYou can't reply to a ghost!"
+lang_not_found: "&cThis language doesn't exist!"
+no_translation: "[No Translation]"
+files_reload_error: "&cError on files reloading"
+impossible_update_check: "&c[SEVERE] Could not check for updates! Stacktrace:"
+new_player: "The file 'players.yml' doesn't contain the player ! Creating player information..."
+maintenance: "&cThis server is in Maintenance !"
+
+# =-=-=-=-=-=-=-=-=-=-> BuildRules
+buildprotection_enable: "Build protection &aenabled"
+buildprotection_disable: "Build protection &cdisabled"
+leavesdecay_enable: "Leaves decay &aenabled"
+leavesdecay_disable: "Leaves decay &cdisabled"
+icemelt_enable: "Ice melting &aenabled"
+icemelt_disable: "Ice melting &cdisabled"
+mobspawn_enable: "Mob spawning &aenabled"
+mobspawn_disable: "Mob spawning &cdisabled"
+damages_enable: "Damages &aenabled"
+damages_disable: "Damages &cdisabled"
+weatherchange_enable: "Weather cycle &aenabled"
+weatherchange_disable: "Weather cycle &cdisabled"
+itemspawn_enable: "Item spawning &aenabled"
+itemspawn_disable: "Item spawning &cdisabled"
+daylightcycle_enable: "Daylight cycle &aenabled"
+daylightcycle_disable: "Daylight cycle &cdisabled"
+
+# =-=-=-=-=-=-=-=-=-=-> Commands
+warp_deleted: "&7The warp &6%name% &7removed" #Placeholder : %name%
+warp_created: "&7The warp &6%name% &7created" #Placeholder : %name%
+warp_tp: "&7You have been teleported to warp &6%name%" #Placeholder : %name%
+fly_enable: "Fly enabled"
+fly_disable: "Fly disabled"
+fly_enable_other: "Fly enabled for %player%" #Placeholder : %player%
+fly_disable_other: "Fly disabled for %player%" #Placeholder : %player%
+gamemode_change: "Your game mode has been updated to %gamemode%" #Placeholder : %gamemode%
+hide_enable: "Now invisible!"
+hide_disable: "Now visible!"
+hide_enable_other: "%player% is now invisible!"
+hide_disable_other: "%player% is now visible!"
+item_receive: "You receive an item from %player%"
+item_give: "Your item has been send to %player%"
+nightvision_enable: "Nightvision enabled"
+nightvision_disable: "Nightvision disabled"
+pickup_enable: "Items pickup enabled"
+pickup_disable: "Items pickup disabled"
+fly_speed_set: "Fly speed set to %speed%"
+walk_speed_set: "Walk speed set to %speed%"
+back: "&7Back to previous location"
+teleportation_from_to: "&7Teleportation from &6%from% to &6%to%" #Placeholder : %from% & %to%
+teleportation_to: "&7Teleportation to &6%to%" #Placeholder : %to%
+head: "&6Given [&c%owner%'s Head&6] to %player%" #Placeholder : %owner% & %player%
+plugin_enable: "%plugin% &aenabled" #Placeholder : %plugin%
+plugin disable: "%plugin% &cdisabled" #Placeholder : %plugin%
+lang_change: "&bLang : &6English!"
+files_reloaded: "&eFiles reloaded successfully"
+version: "&6Version : &e%version%" #Placeholder : %version%
+checking: "&eChecking for updates..."
+item_get: "&6Given [&c%name%&6] to %player%" #Placeholder : %name% & %player%
+maintenance_enable: "&7Maintenance &aenable"
+maintenance_disable: "&7Maintenance &cdisable"
+
+# =-=-=-=-=-=-=-=-=-=-> Other
+startup: "&cInitialization of the &e%cmd% &ccommand" #Placeholder : %cmd%
+join: "&6%player% &ehas joined the server"
+quit: "&6%player% &ehas left the server"
+no_reproduction: "Any reproduction is forbidden"
+update_found: "&bAn update was found! Latest version: &6%version% &b> &6%url%" #Placeholder : %version% & %url%
+wiki_link: "&6Go to Wiki : &b&l%link%" #Placeholder : %link%

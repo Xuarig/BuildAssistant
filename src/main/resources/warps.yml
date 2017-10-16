@@ -1,0 +1,20 @@
+
+  # COMMANDS =>
+    # You can add warps with /setwarp <name>
+    # You can delete one with /delwarp <name>
+    # And you can teleport to one with /warp <name>
+
+  # ATTENTION : ATTENTION : ATTENTION : ATTENTION : ATTENTION #
+  #                                                           #
+  #      One warp is required ! But soon I will fix it        #
+  #                                                           #
+  # ATTENTION : ATTENTION : ATTENTION : ATTENTION : ATTENTION #
+
+warps:
+  tutorial:
+    x: 0.0
+    y: 256.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
+    world: world

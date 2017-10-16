@@ -1,0 +1,173 @@
+name: BuildAssistant
+version: 1.6.1
+author: xuarig
+main: com.xuarig.Main
+commands:
+  gm:
+    description: Gamemode alias ! Faster and better !
+    aliases: [gamemode]
+  penable:
+    description: To enable a plugin
+    aliases: [pl-on]
+  pdisable:
+    description: To disable a plugin
+    aliases: [pl-off]
+  preload:
+    description: To reload a plugin
+    aliases: [pl-rl]
+  fly:
+    description: I believe i can fly !
+  speed:
+    description: Need to be faster ? No problem !
+  buildrule:
+    description: I have godness powers ! Oh yeah...
+    aliases: [setrule]
+  itemGive:
+    description: Best item ever ! I need to share it !
+    aliases: [giveto]
+  msg:
+    description: Luigi > Hello, it's me Mario !
+    aliases: [m, tell, t]
+  reply:
+    description: Mario > Oh very good message...
+    aliases: [r]
+  back:
+    description: Oh where am I ?
+  top:
+    description: Underground is boring...
+  setwarp:
+    description: Very good place !
+    aliases: [createwarp]
+  delwarp:
+    description: Very bad warp 2 ?
+    aliases: [removewarp, deletewarp, remwarp]
+  warp:
+    description: Pouf!
+    aliases: [wp]
+  lang:
+    description: Change your lang!
+  hide:
+    description: Become invisible ! or just normal...
+    aliases: [vanish]
+  pickup:
+    description: Too many items in your inventory ? Disable pickup of items !
+  nightvision:
+    description: Where are my glasses ? Oh /nightvision !
+    aliases: [supervision]
+  head:
+    description: You want an head ? You have an head...
+  buildassistant:
+    description: Admin command for BuildAssistant plugin
+    aliases: [ba]
+  get:
+    description: To get an item
+  tp:
+    description: Pouf...
+    aliases: [teleporttaion]
+
+
+permissions:
+
+  buildassistant.buildbypass:
+    description: Allows you to build and break blocks if buildprotection is enable
+    default: false
+
+  buildassistant.joinbypass:
+    description: Allows you to join on Maintenance
+    default: false
+
+  buildassistant.command.buildassistant:
+    default: false
+
+  buildassistant.command.buildrule:
+    default: false
+
+  buildassistant.command.delwarp:
+    default: false
+
+  buildassistant.command.fly:
+    default: false
+    children:
+      buildassistant.command.fly.own: true
+
+  buildassistant.command.fly.own:
+    default: false
+
+  buildassistant.command.gamemode:
+    default: false
+    children:
+      buildassistant.command.gamemode.own: true
+
+  buildassistant.command.gamemode.own:
+    default: false
+
+  buildassistant.command.get:
+    default: false
+
+  buildassistant.command.head:
+    default: false
+
+  buildassistant.command.hide:
+    default: false
+    children:
+      buildassistant.command.hide.own: true
+
+  buildassistant.command.hide.own:
+    default: false
+
+  buildassistant.command.itemgive:
+    default: false
+
+  buildassistant.command.lang:
+    default: true
+
+  buildassistant.command.msg:
+    default: true
+
+  buildassistant.command.reply:
+    default: true
+
+  buildassistant.command.nightvision:
+    default: false
+
+  buildassistant.command.pickup:
+    default: false
+
+  buildassistant.command.penable:
+    default: false
+
+  buildassistant.command.pdisable:
+    default: false
+
+  buildassistant.command.preload:
+    default: false
+
+  buildassistant.command.setwarp:
+    default: false
+
+  buildassistant.command.speed:
+    default: false
+    children:
+      buildassistant.command.speed.own: true
+
+  buildassistant.command.speed.own:
+    default: false
+
+  buildassistant.command.top:
+    default: false
+
+  buildassistant.command.tp:
+    default: false
+    children:
+      buildassistant.command.tp.own: true
+
+  buildassistant.command.tp.own:
+    default: false
+
+  buildassistant.command.back:
+    default: false
+
+  buildassistant.command.warp:
+    default: false
+
+

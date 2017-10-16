@@ -1,0 +1,132 @@
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+# Build Assistant Language File                                                                            Version : 1.0 (Default : en) #
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
+# Please read this before change language file :
+# Available languages are English (en) and French (fr)
+# For the color code you must use & + color character (Example : &a => Green or &6 => Gold)
+# Colors code : http://imgur.com/gallery/XjGW1
+# If you have another language file with other language, you can give it to me to add it to the plugin !
+# Translations by Xuarig (I'm a french dev.)
+
+# If you need help about translation : Contact me on spigot by MP (https://www.spigotmc.org/resources/buildassistant.45252/)
+# And thank you for the plugin download (:
+# If you have suggestions, say it to me !
+
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+# Help for French                                                                                                                       #
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
+# e avec accent aigu > @a@
+# e avec accent circonflex > @b@
+# e avec accent grave > @c@
+# a avec accent grave > @d@
+# a avec accent circonflex > @e@
+# u avec accent grave > @a@
+# u avec accent circonflex > @g@
+# c avec cedille > @h@
+# E avec accent aigu > @i@
+# E avec accent grave > @j@
+# E avec accent circonflex > @k@
+
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+# French (FR)                                                                                                                     #
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
+
+# =-=-=-=-=-=-=-=-=-=-> Words
+usage: "Utilisation"
+argument: "argument"
+gamemode: "gamemode"
+player: "joueur"
+adventure: "Aventure"
+creative: "Cr@a@atif"
+survival: "Survie"
+spectator: "Spectateur"
+message: "message"
+name: "nom"
+speed: "vitesse"
+fly: "vol"
+walk: "marche"
+private_message: "MP"
+
+# =-=-=-=-=-=-=-=-=-=-> Errors
+no_perm: "&cVous n'avez pas la permission d'ex@a@cuter cette commande ! &7(&6%perm%&7)" #Placeholder : %perm%
+warp_not_found: "&7Le warp &6%name% &7n'existe pas" #Placeholder : %name%
+item_not_found: "&7L'objet &6%name% &7n'existe pas" #Placeholder : %name%
+player_not_found: "&cCe joueur n'existe pas !"
+player_not_longer_online: "&cCe joueur n'est plus connect@a@ !"
+one_of_two_player_not_found: "&cL'un des deux joueurs n'existe pas ou n'est pas connect@a@ !"
+impossible_back: "&cRetour @d@ l'endroit pr@a@c@a@dent impossible !"
+plugin_not_found: "&cCe plugin n'existe pas ou le nom est incorrect"
+plugin_not_load: "&cCe plugin n'est pas charg@a@ sur le serveur"
+reply_no_player: "&cVous n'avez personne @d@ qui r@a@pondre !"
+lang_not_found: "&cCette langue n'existe pas !"
+no_translation: "[Aucune Traduction]"
+files_reload_error: "&cErreur durant le rechargement des fichiers"
+impossible_update_check: "&c[SEVERE] Impossible de v@a@rifier les mises @e@ jours! Stacktrace:"
+new_player: "Le fichier 'players.yml' ne contient pas ce joueur ! Cr@a@ation de l'identité du joueur..."
+maintenance: "&cCe serveur est en Maintenance !"
+
+# =-=-=-=-=-=-=-=-=-=-> BuildRules
+buildprotection_enable: "La protection contre le build a @a@t@a@ &aactiv@a@e"
+buildprotection_disable: "La protection contre le build a @a@t@a@ &cd@a@sactiv@a@e"
+leavesdecay_enable: "La disparition des feuilles a @a@t@a@ &aactiv@a@e"
+leavesdecay_disable: "La disparition des feuilles a @a@t@a@ &cd@a@sactiv@a@e"
+icemelt_enable: "La fonte des glaces a @a@t@a@ &aactiv@a@e"
+icemelt_disable: "La fonte des glaces a @a@t@a@ &cd@a@sactiv@a@e"
+mobspawn_enable: "Le spawn des mobs a @a@t@a@ &aactiv@a@"
+mobspawn_disable: "Le spawn des mobs a @a@t@a@ &cd@a@sactiv@a@"
+damages_enable: "Les d@a@gats ont @a@t@a@ &aactiv@a@"
+damages_disable: "Les d@a@gats ont @a@t@a@ &cd@a@sactiv@a@"
+weatherchange_enable: "Le changement de temps a @a@t@a@ &aactiv@a@"
+weatherchange_disable: "Le changement de temps a @a@t@a@ &cd@a@sactiv@a@"
+itemspawn_enable: "Le spawn des items a @a@t@a@ &aactiv@a@"
+itemspawn_disable: "Le spawn des items a @a@t@a@ &cd@a@sactiv@a@"
+daylightcycle_enable: "Le cycle Jour/Nuit a @a@t@a@ &aactiv@a@"
+daylightcycle_disable: "Le cycle Jour/Nuit a @a@t@a@ &cd@a@sactiv@a@"
+
+# =-=-=-=-=-=-=-=-=-=-> Commands
+warp_deleted: "&7Le warp &6%name% &7a @a@t@a@ supprim@a@ avec succ@c@s" #Placeholder : %name%
+warp_created: "&7Le warp &6%name% &7a @a@t@a@ cr@a@e avec succ@c@s" #Placeholder : %name%
+warp_tp: "&7Vous avez @a@t@a@ t@a@l@a@port@a@ aux warp &6%name%" #Placeholder : %name%
+fly_enable: "Fly Activ@a@"
+fly_disable: "Fly D@a@sactiv@a@"
+fly_enable_other: "Fly Activ@a@ pour %player%" #Placeholder : %player%
+fly_disable_other: "Fly D@a@sactiv@a@ pour %player%" #Placeholder : %player%
+gamemode_change: "Vous @b@tes d@a@sormais en mode %gamemode%" #Placeholder : %gamemode%
+hide_enable: "Vous @b@tes @d@ pr@a@sent invisible !"
+hide_disable: "Vous @b@tes @d@ pr@a@sent visible !"
+hide_enable_other: "%player% est @d@ pr@a@sent invisible !"
+hide_disable_other: "%player% est @d@ pr@a@sent visible !"
+item_receive: "Vous avez re@h@u un item de %player%"
+item_give: "Vous avez envoy@a@ un item @d@ %player%"
+nightvision_enable: "Vision nocturne activ@a@e"
+nightvision_disable: "Vision nocturne d@a@sactiv@a@e"
+pickup_enable: "Rammasage des objets activ@a@"
+pickup_disable: "Rammasage des objets desactiv@a@"
+fly_speed_set: "Vitesse de vol mise @d@ %speed%"
+walk_speed_set: "Vitesse de marche mise @d@ %speed%"
+back: "&7Retour @d@ l'endroit pr@a@c@a@dent"
+teleportation_from_to: "&7T@a@leportation de &6%from% &7@d@ &6%to%" #Placeholder : %from% & %to%
+teleportation_to: "&7T@a@leportation @d@ &6%to%" #Placeholder : %to%
+head: "&6Don de [&cT@b@te de %owner%&6] @d@ %player%" #Placeholder : %owner% & %player%
+plugin_enable: "%plugin% &aactiv@a@" #Placeholder : %plugin%
+plugin disable: "%plugin% &cd@a@sactiv@a@" #Placeholder : %plugin%
+lang_change: "&bLangue : &6Fran@h@ais !"
+files_reloaded: "&eFichiers recharg@a@s avec succ@c@s"
+version: "&6Version : &e%version%" #Placeholder : %version%
+checking: "&eV@a@rification des mises @e@ jour..."
+item_get: "&6Don de [&c%name%&6] @d@ %player%" #Placeholder : %owner% & %player%
+maintenance_enable: "&7Maintenance &aactiv@a@"
+maintenance_disable: "&7Maintenance &cd@a@sactiv@a@"
+
+# =-=-=-=-=-=-=-=-=-=-> Other
+startup: "&cInitialisation de la commande &e%cmd%" #Placeholder : %cmd%
+join: "&6%player% &ea rejoint le serveur"
+quit: "&6%player% &ea quitt@a@ le serveur"
+no_reproduction: "Toute reproduction est interdite"
+update_found: "&bUne mise à jour est disponible! Derni@3@re version: &6%version% &b> &6%url%" #Placeholder : %version% & %url%
+wiki_link: "&6Aller sur le Wiki : &b&l%link%" #Placeholder : %link%
+
+
+

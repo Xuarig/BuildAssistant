@@ -1,0 +1,22 @@
+lang: english
+prefix: true
+baseColor: "&6"
+
+permissions: true
+updater: true
+
+maintenance: false
+
+buildProtection: false
+mobSpawn: false
+iceMelt: false
+leavesDecay: false
+damages: false
+weatherChange: false
+itemSpawn: false
+doDaylightCycle: false
+forceGamemodes: true
+joinMessages: true
+quitMessages: true
+
+default_tp: false
